@@ -5,7 +5,7 @@
   "license": "MIT",
     "scripts": {
     "dev": "nodemon -- -r esm -r dotenv/config index.js",
-    "start": "pm2 start index.js --watch --no-daemon --node-args=\"-r esm -r dotenv/config\""
+    "start": "pm2 start index.js --watch --no-daemon --node-args=\"-r esm\""
   },
   "dependencies": {
     "esm": "^3.2.25",

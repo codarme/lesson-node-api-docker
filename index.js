@@ -13,5 +13,5 @@ server.get('/users', async (req, res) => {
 })
 
 
-server.start(() => console.log('Started'))
+server.start(() => console.log('Started server'))
 
